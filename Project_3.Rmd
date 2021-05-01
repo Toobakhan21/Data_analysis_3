@@ -1,35 +1,3 @@
----
-title: 'CIND 123 - Data Analytics: Basic Methods Winter2021 Assignment 3'
-author: 
-output:
-  word_document: default
-  html_document: default
-  pdf_document: default
----
-<center> <h1> Assignment 3 (10%) </h1> </center>
-<center>  <h3> [TOOBA KHAN] </h2> </center>
-<center> <h3> [CIND123 DK0 & 500619489] </h2> </center>
----
-## Instructions 
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. Review this website for more details on using R Markdown <http://rmarkdown.rstudio.com>.
-
-Use RStudio for this assignment. Complete the assignment by inserting your R code wherever you see the string "#INSERT YOUR ANSWER HERE".
-
-When you click the **Knit** button, a document (PDF, Word, or HTML format) will be generated that includes both the assignment content as well as the output of any embedded R code chunks.
-
-Submit **both**  the rmd and generated output files. Failing to submit both files will be subject to mark deduction.
-
-
-## Sample Question and Solution
-
-Use `seq()` to create the vector $(2,4,6,\ldots,20)$.
-
-```{r}
-#Insert your code here.
-seq(2,20,by = 2)
-```
-### Note:
 
 You will use 'Admission_Predict.csv' for Assignment-3. This dataset includes the data of the applicants of an academic program. Each application has a unique serial number, which represents a particular student. The dataset contains several parameters which are considered important during the application for Masters Programs.
 The parameters included are :
